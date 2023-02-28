@@ -70,3 +70,11 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem 'devise', '~> 4.9'
+
+group :development do
+  gem "annotate"
+  gem "better_errors"
+  gem "binding_of_caller"
+end
